@@ -1,0 +1,90 @@
+body {
+	background: #cdc5c5;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	background-color: rgb(246, 242, 236);
+	padding: 40px;
+	border-radius: 25px;
+	border: 3px solid black;
+	width: 100%;
+	max-width: 800px;
+	margin: 20px;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 35px;
+	margin-bottom: 30px;
+	text-shadow: 2px 2px grey;
+	text-decoration-line: underline;
+}
+
+.form-row {
+	margin-bottom: 20px;
+}
+
+.form-row label {
+	display: block;
+	font-family: cursive;
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
+.form-row input,
+.form-row textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.form-row textarea {
+	height: 150px;
+	resize: vertical;
+}
+
+.submit-btn {
+	background-color: #f0f0f0;
+	border: 3px solid #ccc;
+	border-radius: 15px;
+	cursor: pointer;
+	padding: 10px 30px;
+	font-size: 18px;
+	display: block;
+	margin: 30px auto 0;
+	min-width: 200px;
+}
+
+.submit-btn:hover {
+	background-color: #645d5d;
+	color: white;
+	font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	.container {
+		margin: 15px;
+		padding: 20px;
+	}
+
+	h2 {
+		font-size: 28px;
+	}
+
+	.form-row label {
+		font-size: 16px;
+	}
+
+	.form-row input,
+	.form-row textarea {
+		padding: 8px;
+	}
+}
